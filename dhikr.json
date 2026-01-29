@@ -1,0 +1,26 @@
+[
+  {
+    "arabic": "سُبْحَانَ اللَّهِ",
+    "latin": "Subḥān Allāh",
+    "meaning": "Gloire à Allah",
+    "recommended": 33
+  },
+  {
+    "arabic": "الْحَمْدُ لِلَّهِ",
+    "latin": "Al-ḥamdu liLlāh",
+    "meaning": "Louange à Allah",
+    "recommended": 33
+  },
+  {
+    "arabic": "اللَّهُ أَكْبَرُ",
+    "latin": "Allāhu Akbar",
+    "meaning": "Allah est le Plus Grand",
+    "recommended": 34
+  },
+  {
+    "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ",
+    "latin": "Lā ilāha illa Allāh",
+    "meaning": "Il n’y a de divinité qu’Allah",
+    "recommended": 100
+  }
+]

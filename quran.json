@@ -1,0 +1,16 @@
+[
+  {
+    "key": "1:1",
+    "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "translation": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.",
+    "tafsir": "Tout commence par Allah. Ce verset nous invite à placer Allah au centre de chaque action.",
+    "audio": "audio/reciter/001_001.mp3"
+  },
+  {
+    "key": "1:2",
+    "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+    "translation": "Louange à Allah, Seigneur de l’univers.",
+    "tafsir": "Ce verset nous apprend la gratitude et la reconnaissance envers Allah.",
+    "audio": "audio/reciter/001_002.mp3"
+  }
+]

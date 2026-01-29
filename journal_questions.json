@@ -1,0 +1,23 @@
+{
+  "Muharram": {
+    "theme": "Intention et nouveau départ",
+    "questions": [
+      "Quelle intention je veux poser pour cette nouvelle année ?",
+      "Qu’est-ce que je dois laisser derrière moi ?",
+      "Comment purifier mon cœur aujourd’hui ?"
+    ]
+  },
+  "Safar": {
+    "theme": "Confiance et patience",
+    "questions": [
+      "En quoi dois-je placer plus de confiance en Allah ?",
+      "Quelle épreuve me demande de la patience ?"
+    ]
+  },
+  "Rabi al-Awwal": {
+    "theme": "Amour du Prophète ﷺ",
+    "questions": [
+      "Comment puis-je imiter le comportement du Prophète ﷺ aujourd’hui ?"
+    ]
+  }
+}
