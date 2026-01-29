@@ -1,0 +1,106 @@
+body {
+  font-family: "Georgia", serif;
+  background: linear-gradient(135deg, #0d3b1f 0%, #1a5c3a 50%, #2d8659 100%);
+  color: #2f2f2f;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 0 2px 10px rgba(45, 134, 89, 0.3);
+}
+
+h2 {
+  color: #4ecca7;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 250, 245, 0.9));
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(45, 134, 89, 0.2);
+  border: 1px solid rgba(78, 204, 167, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.arabic {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  font-weight: 500;
+  color: #1a5c3a;
+}
+
+.translation {
+  text-align: center;
+  font-style: italic;
+  color: #4a7c69;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+button {
+  display: inline-block;
+  margin: 0.5rem 0.25rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(135deg, #4ecca7, #5edfc8);
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(78, 204, 167, 0.3);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(78, 204, 167, 0.4);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 140px;
+  border-radius: 12px;
+  padding: 1rem;
+  border: 2px solid #4ecca7;
+  font-family: inherit;
+  background: linear-gradient(135deg, #faf8f4, #f0faf7);
+  color: #2f2f2f;
+  font-size: 0.95rem;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(78, 204, 167, 0.4);
+  background: white;
+  border-color: #2d8659;
+}
+
+textarea::placeholder {
+  color: #9eb3a6;
+}

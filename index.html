@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Compagnon Spirituel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="app">
+
+    <h1>🌙 Mon compagnon spirituel</h1>
+
+    <!-- Verset -->
+    <section class="card">
+      <p id="arabic" class="arabic"></p>
+      <p id="translation" class="translation"></p>
+
+      <button id="play">▶️ Écouter</button>
+      <button id="stop">⏹️ Arrêter</button>
+      <button id="repeat3">🔁 Répéter 3 fois</button>
+      <button id="repeat5">🔁 Répéter 5 fois</button>
+      <button id="memorized">✅ J'ai mémorisé</button>
+    </section>
+
+    <!-- Tafsir -->
+    <section class="card">
+      <h2>Exégèse</h2>
+      <p id="tafsir"></p>
+    </section>
+
+    <!-- Nom d'Allah du jour -->
+    <section class="card">
+      <h2>Nom d'Allah du jour</h2>
+      <p id="allah-name-ar" class="arabic"></p>
+      <p id="allah-name-la"></p>
+      <p id="allah-name-mean"></p>
+      <p id="allah-name-reflect" class="translation"></p>
+    </section>
+
+    <!-- Dhikr -->
+    <section class="card">
+      <h2>Dhikr</h2>
+
+      <p id="dhikr-ar" class="arabic"></p>
+      <p id="dhikr-la"></p>
+      <p id="dhikr-mean" class="translation"></p>
+
+      <p>
+        <span id="dhikr-count">0</span> /
+        <span id="dhikr-target">0</span>
+      </p>
+
+      <button id="dhikr-btn">☝️ Faire dhikr</button>
+      <button id="dhikr-reset">🔄 Réinitialiser</button>
+    </section>
+
+    <!-- Journal -->
+    <section class="card">
+      <h2>Journal</h2>
+      <p id="question"></p>
+      <textarea id="journal" placeholder="Parle à Allah ici..."></textarea>
+      <button id="save">💾 Sauvegarder</button>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
